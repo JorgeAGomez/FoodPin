@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -9,52 +10,9 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="516" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pVQ-wD-OxK">
-                    <rect key="frame" x="148" y="102" width="217" height="30"/>
-                    <fontDescription key="fontDescription" name="STHeitiTC-Medium" family="Heiti TC" pointSize="29"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="  Copyright (c) 2015 Jorge Gomez. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="5T1-RA-KvA">
-                    <rect key="frame" x="36" y="451" width="441" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FoodChecked" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6Q-xu-rjl">
-                    <rect key="frame" x="69" y="129" width="379" height="42"/>
-                    <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="29"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-            </subviews>
             <color key="backgroundColor" white="0.47999999999999998" alpha="1" colorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="pVQ-wD-OxK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="102" id="2Yb-lp-wvQ"/>
-                <constraint firstItem="5T1-RA-KvA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="36" id="7cn-F4-HA5"/>
-                <constraint firstItem="pVQ-wD-OxK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="148" id="9xZ-6O-1YK"/>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pVQ-wD-OxK" secondAttribute="trailing" constant="115" id="OE3-7f-ciq"/>
-                <constraint firstAttribute="trailing" secondItem="pVQ-wD-OxK" secondAttribute="trailing" constant="115" id="ZU4-q2-C0E"/>
-                <constraint firstItem="pVQ-wD-OxK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="102" id="e2X-oO-byS"/>
-                <constraint firstAttribute="bottom" secondItem="5T1-RA-KvA" secondAttribute="bottom" constant="8" id="noV-nG-0Ia"/>
-                <constraint firstItem="pVQ-wD-OxK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="148" id="zGG-pm-4Fm"/>
-                <constraint firstAttribute="trailing" secondItem="5T1-RA-KvA" secondAttribute="trailing" constant="3" id="zag-OO-0a2"/>
-            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="2Yb-lp-wvQ"/>
-                    <exclude reference="9xZ-6O-1YK"/>
-                    <exclude reference="OE3-7f-ciq"/>
-                    <exclude reference="ZU4-q2-C0E"/>
-                    <exclude reference="e2X-oO-byS"/>
-                    <exclude reference="zGG-pm-4Fm"/>
-                    <exclude reference="7cn-F4-HA5"/>
-                    <exclude reference="noV-nG-0Ia"/>
-                    <exclude reference="zag-OO-0a2"/>
-                </mask>
-            </variation>
             <point key="canvasLocation" x="566" y="455"/>
         </view>
     </objects>
