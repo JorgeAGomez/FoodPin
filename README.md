@@ -12,11 +12,6 @@ Steps to build and run FoodPin:
 
 This repository is for an iOS app in development. Featuring an app for restaurants in Calgary, Canada (only Calgary for the moment).
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
 
 ### Who do I talk to? ###
 
