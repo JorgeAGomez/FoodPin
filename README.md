@@ -10,7 +10,7 @@ Steps to build and run FoodPin:
 
 ### What is this repository for? ###
 
-This repository is for an iOS app in development. Featuring an app for restaurants in Calgary, Canada (only Calgary for the moment).
+Building an app for restaurants in Calgary, Canada. The app has a list of restaurants, if you click one of the restaurant you will see detailed information about the restaurant (Address, phone number, type, name, etc). You would be able to write reviews and share your favorite restaurants with your friends.
 
 
 ### Who do I talk to? ###
