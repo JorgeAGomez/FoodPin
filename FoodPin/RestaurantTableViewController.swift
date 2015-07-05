@@ -10,6 +10,7 @@ import UIKit
 
 class RestaurantTableViewController: UITableViewController {
     
+    
     var allRestaurants: [Restaurant] = [
     
     Restaurant(name: "80th and Ivy", location: "1127 17 Ave SW, Calgary, AB T2T 0B6", phone: "(403) 452-6905", type: "Restaurant", image: "80thandivy.jpeg", isVisited: false),
@@ -138,7 +139,8 @@ class RestaurantTableViewController: UITableViewController {
         optionMenu.addAction(IveBeenHereAction)
         tableView.deselectRowAtIndexPath(indexPath, animated: false)
         }
-    }*/
+    }
+    */
     
     override func tableView( tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
@@ -187,6 +189,10 @@ class RestaurantTableViewController: UITableViewController {
             }
         }
     
+        @IBAction func unwindToHomeScreen(segue:UIStoryboardSegue){
+        
+        
+        }
     
 }
 

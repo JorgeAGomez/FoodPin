@@ -45,6 +45,8 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(tableView : UITableView, cellForRowAtIndexPath indexPath : NSIndexPath)-> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! DetailTableViewCell
         
+        
+        cell.mapButton.hidden = true                   //hides the map button on every cel.
         switch indexPath.row {
     
         case 0:
@@ -53,6 +55,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         case 1:
             cell.fieldLabel.text = "Location"
             cell.valueLabel.text = restaurant.location
+            cell.mapButton.hidden = false              //enables the map button only for location
         case 2:
             cell.fieldLabel.text = "Phone #"
             cell.valueLabel.text = restaurant.phone
@@ -70,5 +73,14 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return cell
     }
     
+    @IBAction func close(segue:UIStoryboardSegue){
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if  segue.identifier == "showMap"{
+            let destinationController = segue.destinationViewController as! MapViewController
+            destinationController.restaurant = restaurant
+        }
+    }
     
 }
